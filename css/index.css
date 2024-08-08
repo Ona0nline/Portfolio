@@ -1,0 +1,83 @@
+body{
+  background-color: #A09BE7;
+}
+
+@font-face {
+  font-family: "molen";
+  src: url("../fonts/Molen-Surplus400.otf") format("opentype");
+  font-family: "brookshire";
+  src: url("../fonts/EFCO Brookshire Regular.ttf") format("truetype");
+  font-family: "lucy";
+  src: url("../fonts/FontsFree-Net-lucidity-condensed.ttf") format("truetype");
+  font-family: "circle";
+  src: url("../fonts/Bright\ Circle.otf") format("opentype");
+}
+
+h1{
+  color:#B0FF92;
+  font-family: "circle";
+  font-size: 120px;
+  width:800px;
+  height:100px;
+}
+
+ul li a {
+  color: #5F00BA !important;
+  
+}
+
+
+.nav-link{
+ font-size: 24px;
+ font-family: "circle";
+}
+
+.progress{
+  background-color: #B0FF92;
+}
+
+.progress-bar{
+  background-color: #5F00BA;
+}
+#htmlBar{
+  transform: translateY(350px);
+  font-family: "circle";
+}
+
+#projects{
+  transform: scale(0.9) translateY(400px);
+  margin-bottom: 20px;
+}
+
+#onaonline{
+  font-size: 22px;
+  color:#FFF2F1;
+  font-family:"circle";
+}
+
+#onaonline:hover,#suade:hover,#weather:hover{
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#onaonline,#suade,#weather{
+  font-family: "lucy";
+  font-size: 20px;
+}
+
+footer{
+
+  background-color: #5F00BA;
+  font-size: 22px;
+  font-family: "circle";
+}
+
+
+
+h3{
+  color:#D6FF79;
+}
+
+p{
+  color:#FFF2F1;
+}
