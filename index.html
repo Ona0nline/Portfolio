@@ -13,6 +13,12 @@
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +30,7 @@
       <a class="nav-link" href="about.html" target="_blank">About me</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+      <a class="nav-link anchor" data-toggle="tooltip" data-placement="bottom" title="Contact details at footer" href="about.html">Contact</a>
     </li>
   </ul>
 
@@ -71,7 +77,7 @@
   <div class="container-fluid mb-10" id="projects">
     <div class="row">
       <div class="col-md-12">
-        <iframe class="mb-10" src="https://onaonline.netlify.app/" width="100%" height="600px" frameborder="0"></iframe>
+        <iframe class="mb-10 responsive-iframe" src="https://onaonline.netlify.app/" width="100%" height="600px" frameborder="0"></iframe>
         <p id="onaonline" class="mb-10">More<i id="right-arrow" class="bx bx-right-arrow-alt" data-bs-toggle="collapse" data-bs-target="#moreME"></i></p>
         <p id="moreME" class="collapse">Onas' Oyster is my personal passion project, born from a deep need to create a tangible space for my most cherished
         corners of the internet. I’ve packed this content in creative and engaging ways to showcase why these corners are
@@ -82,7 +88,7 @@
       </div>
 
       <div class="col-md-12">
-        <iframe src="https://suadeclothing.netlify.app/" width="100%" height="600px" frameborder="0"></iframe>
+        <iframe class="responsive-iframe" src="https://suadeclothing.netlify.app/" width="100%" height="600px" frameborder="0"></iframe>
 
       </div>
       <p id="onaonline" class="mb-10">More<i id="right-arrow" class="bx bx-right-arrow-alt" data-bs-toggle="collapse"
@@ -96,7 +102,7 @@
 
     <div class="row">
 <div class="col-md-12">
-        <iframe src="https://ona0nlineweatherapp.netlify.app/" width="100%" height="600px" frameborder="0"></iframe>
+        <iframe class="responsive-iframe" src="https://ona0nlineweatherapp.netlify.app/" width="100%" height="600px" frameborder="0"></iframe>
         <p id="onaonline" class="mb-10">More<i id="right-arrow" class="bx bx-right-arrow-alt" data-bs-toggle="collapse"
             data-bs-target="#weather"></i></p>
         <p id="weather" class="collapse">
@@ -111,7 +117,13 @@
         <div class="container-fluid">
           <p>All of my projects reflect the skills I’ve mentioned, including backend JavaScript, API integration, Git, GitHub, and
       hosting. They not only showcase my technical abilities but also demonstrate my proficiency in version control and
-      deployment.
+      deployment.<br/>
+
+      <span class="blink" id="contactInfo">Find me here<i class="bx bxs-down-arrow"></i></span><br>
+      <i class="bx bxl-github"></i>GitHub:<a href="https://github.com/Ona0nline">ona0nline</a><br/>
+      <i class="bx bxl-instagram"></i>Instagram:<a href="https://www.instagram.com/ona.0nlin4/?hl=en"> @ona.0nlin4</a>
+      <br /><i class="bx bx-envelope"></i>Email: @onasihle123@gmail.com<br />
+      <i class="bx bx-phone"></i>Phone: 072 939 6233
       </p>
         </div>
          

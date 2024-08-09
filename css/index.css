@@ -1,5 +1,23 @@
 body{
-  background-color: #A09BE7;
+  background-color: #f5e7c6;
+}
+
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
@@ -14,7 +32,7 @@ body{
 }
 
 h1{
-  color:#B0FF92;
+  color:#ff6d1f;
   font-family: "circle";
   font-size: 120px;
   width:800px;
@@ -22,7 +40,7 @@ h1{
 }
 
 ul li a {
-  color: #5F00BA !important;
+  color: #222222 !important;
   
 }
 
@@ -33,11 +51,11 @@ ul li a {
 }
 
 .progress{
-  background-color: #B0FF92;
+  background-color: #faf3e1;
 }
 
 .progress-bar{
-  background-color: #5F00BA;
+  background-color: #222222;
 }
 #htmlBar{
   transform: translateY(350px);
@@ -50,34 +68,53 @@ ul li a {
 }
 
 #onaonline{
-  font-size: 22px;
-  color:#FFF2F1;
+  font-size: 18px;
+  color:#222222;
   font-family:"circle";
+}
+
+#moreME{
+  font-size:20px;
 }
 
 #onaonline:hover,#suade:hover,#weather:hover{
   cursor: pointer;
-  font-size: 24px;
+  
 }
 
 #onaonline,#suade,#weather{
-  font-family: "lucy";
+  font-family: "molen";
   font-size: 20px;
+  font-family: "Cardo";
 }
 
 footer{
-
-  background-color: #5F00BA;
-  font-size: 22px;
+  margin-top:90px;
+  margin-bottom: 90px;
+  border-radius: 20px;
+  
+  font-size: 18px;
   font-family: "circle";
 }
 
 
 
 h3{
-  color:#D6FF79;
+  color:#ff6d1f;
 }
 
 p{
-  color:#FFF2F1;
+  color:#222222;
+  font-family: "Cardo";
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+.blink {
+  animation: blink 1s steps(5, start) 0s infinite;
 }
