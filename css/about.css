@@ -1,0 +1,92 @@
+body{
+  background-color:#294122;
+}
+
+@font-face {
+  font-family: "molen";
+  src: url("../fonts/Molen-Surplus400.otf") format("opentype");
+  font-family: "brookshire";
+  src: url("../fonts/EFCO Brookshire Regular.ttf") format("truetype");
+  font-family: "lucy";
+  src: url("../fonts/FontsFree-Net-lucidity-condensed.ttf") format("truetype");
+  font-family: "circle";
+  src: url("../fonts/Bright\ Circle.otf") format("opentype");
+}
+
+ul li a {
+  color: #C84C09 !important;
+
+}
+
+
+.nav-link {
+  font-size: 24px;
+  font-family: "circle";
+}
+
+h1{
+  /* color:#ffedd2; */
+  color: #D2FF28;
+  font-family: "circle";
+    font-size: 120px;
+}
+
+#ona{
+  /* transform: scale(0.4) */
+}
+
+p{
+  color:#D6F599;
+  font-family: "lucy";
+}
+
+#intro{
+  width:700px;
+  font-size:22px;
+}
+
+.container-fluid.sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top:0;
+}
+
+.container-fluid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 150px;
+  gap:40px;
+}
+
+span{
+  color: #C84C09;
+  font-size:24px;
+  margin-bottom: 10px;
+}
+
+#exp em{
+  text-decoration: underline;
+}
+
+#recipe{
+  margin-left:20px;
+  background-color: #D2FF28;
+  color:#C84C09;
+  padding:10px 20px;
+  font-size:20px;
+  font-family: "circle";
+  border:1px solid #C84C09;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px #D6F599;
+}
+
+h2{
+  
+  margin-left: 40px;
+}
+
+h4{
+  color: #C84C09;
+  /*  */
+}
