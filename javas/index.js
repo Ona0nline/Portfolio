@@ -1,5 +1,5 @@
 new Typewriter('#name', {
-  strings: ['Work.','Onalerona Zwane', 'Self-motivated web dev!'],
+  strings: ['Interact with my work below','Onalerona Zwane', 'Self-motivated web dev!'],
   autoStart: true,
   delay:60,
   loop:true
